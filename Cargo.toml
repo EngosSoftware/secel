@@ -1,6 +1,6 @@
 [package]
 name = "secel"
-version = "0.0.6"
+version = "0.0.7"
 authors = ["Dariusz Depta <wisbery@users.noreply.github.com>"]
 description = "SECEL parser"
 documentation = "https://docs.rs/secel"

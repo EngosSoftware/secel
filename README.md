@@ -1,6 +1,6 @@
 # Simply Enough Condition Expression Language Parser
 
-# WORK IN PROGRESS**
+# WORK IN PROGRESS
 
 ## Simply Enough Condition Expression Language Grammar
 
