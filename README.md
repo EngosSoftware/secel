@@ -7,21 +7,27 @@
 ```
       statement = if_expression
                 ;
+                
   if_expression = `if` `(` condition `;` expression `;` expression `)`
                 ;
+                
       condition = disjunction { `or` disjunction }
                 ;
+                
     disjunction = conjunction { `and` conjunction }
                 ;
-   
+                
     conjunction = `(` condition `)`
                 | comparison
                 ;
+                
      comparison = value (`=` | `<>` | `>` | `<` | `>=` | `<=`) value
                 ;
+                
      expression = value
                 | if_expression
                 ;
+                
           value = NUMBER
                 | NULL
                 ;
